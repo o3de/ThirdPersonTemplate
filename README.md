@@ -1,6 +1,6 @@
-# Thirpertem
+# Third Person Template
 
-A template project to showcase a simple Third Person Character Controller. This project is available via the Remote Projects system within the O3DE Project Manager.
+A template project to showcase a simple Third Person Character Controller.
 
 ## Summary
 
