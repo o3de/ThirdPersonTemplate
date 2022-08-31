@@ -1,0 +1,27 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.13170062005519867,
+            0.8231326937675476,
+            0.442847341299057,
+            1.0
+        ],
+        "clearCoat.enable": true,
+        "emissive.color": [
+            0.35924315452575684,
+            0.6258487701416016,
+            0.03337148204445839,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": -1.159999966621399,
+        "general.doubleSided": true,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 0.18000000715255737,
+        "opacity.factor": 0.47999998927116394,
+        "opacity.mode": "TintedTransparent",
+        "specularF0.factor": 0.33000001311302185
+    }
+}

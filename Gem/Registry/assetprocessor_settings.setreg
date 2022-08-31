@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder ThirdPersonTemplate/Assets": {
+                    "watch": "@GEMROOT:ThirdPersonTemplate@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder ThirdPersonTemplate/Registry": {
+                    "watch": "@GEMROOT:ThirdPersonTemplate@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

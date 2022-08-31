@@ -1,0 +1,189 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Android_Prefab",
+        "Components": {
+            "Component_[12608899460700152365]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12608899460700152365,
+                "Parent Entity": ""
+            },
+            "Component_[126371487716921549]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 126371487716921549
+            },
+            "Component_[1324645742577776147]": {
+                "$type": "EditorLockComponent",
+                "Id": 1324645742577776147
+            },
+            "Component_[13345036657818773140]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13345036657818773140
+            },
+            "Component_[13504343023675999363]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13504343023675999363
+            },
+            "Component_[14693204000617121859]": {
+                "$type": "SelectionComponent",
+                "Id": 14693204000617121859
+            },
+            "Component_[14857112201295173939]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14857112201295173939
+            },
+            "Component_[15349934095778771551]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15349934095778771551
+            },
+            "Component_[552487913655415012]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 552487913655415012
+            },
+            "Component_[6834749892590874810]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6834749892590874810
+            },
+            "Component_[903022077010714613]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 903022077010714613,
+                "Child Entity Order": [
+                    "Entity_[1387411722564]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1387411722564]": {
+            "Id": "Entity_[1387411722564]",
+            "Name": "Android",
+            "Components": {
+                "Component_[10908071952808096099]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10908071952808096099
+                },
+                "Component_[11071982964141319544]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11071982964141319544
+                },
+                "Component_[12028972756164124191]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12028972756164124191
+                },
+                "Component_[1368694543754624949]": {
+                    "$type": "EditorSimpleMotionComponent",
+                    "Id": 1368694543754624949,
+                    "PreviewInEditor": true,
+                    "Configuration": {
+                        "MotionAsset": {
+                            "assetId": {
+                                "guid": "{2D187C92-2745-513F-B8EF-EC58AA9F5D31}",
+                                "subId": 817233063
+                            },
+                            "assetHint": "assets/models/pc/android_jump.motion"
+                        },
+                        "Loop": true
+                    }
+                },
+                "Component_[16099062315539129289]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16099062315539129289,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16149143152445474410]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16149143152445474410,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{65CC8EBA-330B-5DAC-8B37-242849812CDB}"
+                                            },
+                                            "assetHint": "assets/models/pc/textures/android_mtrl.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3974433873
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{65CC8EBA-330B-5DAC-8B37-242849812CDB}"
+                                            },
+                                            "assetHint": "assets/models/pc/textures/android_mtrl.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16758381442597738460]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16758381442597738460
+                },
+                "Component_[3161897114264067669]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3161897114264067669
+                },
+                "Component_[3292895553743557330]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3292895553743557330,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16099062315539129289
+                        },
+                        {
+                            "ComponentId": 8552203022794052722,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16149143152445474410,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 1368694543754624949,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[4262788588164192991]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4262788588164192991
+                },
+                "Component_[6694334594694128314]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6694334594694128314
+                },
+                "Component_[7637233062195036582]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7637233062195036582
+                },
+                "Component_[8552203022794052722]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 8552203022794052722,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{21BA015D-3A4D-53E5-8A25-E1BF9BBA5992}",
+                            "subId": 1874855987
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/pc/android.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": "",
+                    "RenderSkeleton": true,
+                    "SkinningMethod": 1
+                }
+            }
+        }
+    }
+}

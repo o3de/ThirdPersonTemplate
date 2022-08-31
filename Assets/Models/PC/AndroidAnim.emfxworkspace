@@ -1,0 +1,3 @@
+[General]
+version=1
+startScript="ImportActor -filename \"assets/models/pc/android_walk.actor\"\nCreateActorInstance -actorID %LASTRESULT% -xPos 0.000000 -yPos 0.000000 -zPos 0.000000 -xScale 1.000000 -yScale 1.000000 -zScale 1.000000 -rot 0.00000000,0.00000000,0.00000000,1.00000000\nLoadMotionSet -filename \"@products@/Assets/Models/PC/AndroidStandard.motionset\"\nLoadAnimGraph -filename \"@products@/Assets/Models/PC/AndroidLocomotion.animgraph\"\nActivateAnimGraph -actorInstanceID -1 -animGraphID %LASTRESULT1% -motionSetID %LASTRESULT2% -visualizeScale 1.000000\n"

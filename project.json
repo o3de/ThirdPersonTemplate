@@ -1,0 +1,21 @@
+{
+    "project_name": "ThirdPersonTemplate",
+    "project_id": "{b4db7f1f-a52b-40be-86f6-22e120b9ff55}",
+    "origin": "The primary repo for ThirdPersonTemplate goes here: i.e. http://www.mydomain.com",
+    "license": "What license ThirdPersonTemplate uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "ThirdPersonTemplate",
+    "summary": "A short description of ThirdPersonTemplate.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "ThirdPersonTemplate"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-nightly",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "ThirdPersonTemplate",
+	"origin_uri":"https://github.com/cdomingo/Thirpertem.git"
+}

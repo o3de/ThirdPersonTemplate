@@ -1,0 +1,13 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.textureMap": "Assets/Models/PC/Textures/Android_Base_color_Violet_01.jpg",
+        "metallic.textureMap": "Assets/Models/PC/Textures/Android_Metallic.jpg",
+        "normal.factor": 0.9599999785423279,
+        "normal.flipX": true,
+        "normal.textureMap": "Assets/Models/PC/Textures/Android_Normal.jpg",
+        "normal.textureMapUv": "Unwrapped",
+        "roughness.textureMap": "Assets/Models/PC/Textures/Android_Roughness.jpg"
+    }
+}

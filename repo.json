@@ -1,0 +1,10 @@
+{
+    "repo_name": "Third Person Template",
+    "origin": "GitHub",
+    "repo_uri": "https://github.com/cdomingo/Thirpertem.git",
+    "summary": "A template project for a controllable character with a 3rd person perspective camera.",
+    "additional_info": "",
+    "projects": [
+        "https://github.com/cdomingo/Thirpertem.git"
+    ]
+}

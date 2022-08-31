@@ -1,0 +1,149 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "android",
+        "Components": {
+            "Component_[12802740632472326304]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12802740632472326304,
+                "Parent Entity": ""
+            },
+            "Component_[14592138980375474256]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14592138980375474256
+            },
+            "Component_[15141198874869842480]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15141198874869842480
+            },
+            "Component_[17100026029996147803]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17100026029996147803
+            },
+            "Component_[18389923506941123655]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18389923506941123655,
+                "Child Entity Order": [
+                    "Entity_[1129689153726]"
+                ]
+            },
+            "Component_[18417964423209391078]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 18417964423209391078
+            },
+            "Component_[3807617838671558736]": {
+                "$type": "EditorLockComponent",
+                "Id": 3807617838671558736
+            },
+            "Component_[6213543483860224725]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6213543483860224725
+            },
+            "Component_[7314031352673479252]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7314031352673479252
+            },
+            "Component_[8004362792288197203]": {
+                "$type": "SelectionComponent",
+                "Id": 8004362792288197203
+            },
+            "Component_[9661577852336750220]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9661577852336750220
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1129689153726]": {
+            "Id": "Entity_[1129689153726]",
+            "Name": "android_idle",
+            "Components": {
+                "Component_[10490549215001994007]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10490549215001994007
+                },
+                "Component_[13073458435663017256]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13073458435663017256
+                },
+                "Component_[14618104930126795185]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14618104930126795185
+                },
+                "Component_[16362193468159288955]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16362193468159288955,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2170995135783919897
+                        },
+                        {
+                            "ComponentId": 8191308940433813421,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2519358792250663177,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16834175549283095859]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16834175549283095859
+                },
+                "Component_[2170995135783919897]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2170995135783919897,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[2519358792250663177]": {
+                    "$type": "EditorSimpleMotionComponent",
+                    "Id": 2519358792250663177,
+                    "Configuration": {
+                        "MotionAsset": {
+                            "assetId": {
+                                "guid": "{28CFDC1C-6B57-5117-81E5-B7D831F70A26}",
+                                "subId": 3025796987
+                            },
+                            "assetHint": "assets/models/pc/android_idle.motion"
+                        },
+                        "Loop": true
+                    }
+                },
+                "Component_[2722259894227844250]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2722259894227844250
+                },
+                "Component_[3455588932459288487]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3455588932459288487
+                },
+                "Component_[4803200832448936154]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4803200832448936154
+                },
+                "Component_[8191308940433813421]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 8191308940433813421,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{A0E6EFF1-A722-5C49-8A7A-F4C3172DB3CE}",
+                            "subId": 353090291
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/pc/android_walk.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": "",
+                    "SkinningMethod": 1
+                },
+                "Component_[8955235714794036601]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8955235714794036601
+                }
+            }
+        }
+    }
+}

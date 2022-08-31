@@ -1,23 +1,33 @@
+[Bb]uild/
+[Cc]ache/
+[Uu]ser_test*/
+
+# ignore certain file extensions
+*.bak
+*.bak0
+*.pdb
+*.pyc
+*.swatches
+*.swp
+*.un~
+*.xz
+*.log
+
+# ignore general local folders
+__pycache__
 .idea/
+.mayaSwatches/
 .vs/
 .vscode/
-__pycache__
-/[Bb]uild
-[Oo]ut/**
-CMakeUserPresets.json
-[Cc]ache/
-/[Ii]nstall/
 **/*egg-info/**
 **/*egg-link
-**/[Rr]estricted
 [Uu]ser/
-FrameCapture/**
 .DS_Store
+_savebackup/
+
+
+# ignore specific files
+imgui.ini
 user*.cfg
 client*.cfg
 server*.cfg
-.mayaSwatches/
-_savebackup/
-*.swatches
-/imgui.ini
-
