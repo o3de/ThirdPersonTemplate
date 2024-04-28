@@ -16,7 +16,7 @@ You need to [install git with lfs support](https://git-scm.com/downloads), and [
 
 1. Clone the github repository (`git clone https://github.com/o3de/ThirdPersonTemplate.git`). When prompted to authenticate, use your github username and the token as password.
 2. Launch O3DE. It will open the Project manager. Click on the **New Project** button then **Open Existing Project** option.
-3. Navigate to your download (and make sure it is unzipped). Open this folder. The project should now be registered.
+3. Navigate to your repository. Open this folder. The project should now be registered.
 
 ![project](doc/cover.png?raw=true)
 
