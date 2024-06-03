@@ -12,7 +12,8 @@
         "ThirdPersonTemplate"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de-sdk",
+    "engine": "o3de",
+    "engine_version": "2.2.2",
     "external_subdirectories": [
         "Gem"
     ],
