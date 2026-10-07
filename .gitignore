@@ -1,6 +1,7 @@
 [Bb]uild/
 [Cc]ache/
 [Uu]ser_test*/
+[Ii]nstall
 
 # ignore certain file extensions
 *.bak
